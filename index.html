@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Pitfall!</title>
+        <style>
+            body{
+                background: #ffffff;
+            }
+
+            h1 {
+                font-family: 'Helvetica Neue';
+                font-weight: lighter;
+                letter-spacing: 4px;
+                color: black;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            canvas {
+                display: block;
+                margin: 20px auto; 
+                border: 1px solid black;
+                background: #ffffff;
+            }
+
+            ::selection {
+                background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pitfall!</h1>
+        <canvas width="720" height="576" id="game"></canvas>
+        <script src="pitfall2.js"></script>
+        <script src="game.js"></script>
+    </body>
+</html>
